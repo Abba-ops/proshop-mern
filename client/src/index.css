@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --bg-color: #f7f7f7;
+  --primary-color: #4a90e2;
+  --primary-color-dark: #457dbd;
+  --secondary-color: #ffae42;
+  --secondary-color-dark: #eba850;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+main {
+  min-height: 80vh;
+}
+
+input,
+select,
+textarea {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.rating__star {
+  color: var(--secondary-color);
+}
+
+.product__card {
+  color: var(--primary-color);
+}
+
+.product__card:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.primary__color {
+  color: var(--primary-color);
+}
+
+.btn__secondary {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn__secondary:hover,
+.btn__secondary:active {
+  background-color: var(--secondary-color-dark) !important;
+  border-color: var(--secondary-color-dark) !important;
+}
+
+.btn__primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn__primary:hover,
+.btn__primary:active {
+  background-color: var(--primary-color-dark) !important;
+  border-color: var(--primary-color-dark) !important;
+}
+
+.carousel__caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
