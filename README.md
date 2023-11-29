@@ -26,6 +26,9 @@ ProShop is a full-stack e-commerce platform developed using the MERN (MongoDB, E
 
 ### Product Management:
 - Dynamic product listing with details and images
+  ![Product Image 1](https://i.ibb.co/SNx8Yst/Screenshot-7.png)
+  ![Product Image 2](https://i.ibb.co/VTS5Js2/Screenshot-5.png)
+  ![Product Image 3](https://i.ibb.co/JcF9hzR/Screenshot-6.png)
 - Product pagination and search functionality
 
 ### Shopping Cart:
